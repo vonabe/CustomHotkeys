@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CustomHotkeys.jnlp">
+  <information>
+    <title>CustomHotkeys</title>
+    <vendor>vonabe</vendor>
+    <description>null</description>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Xms1024m -Xmx1524m "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CustomHotkeys.jar" size="85631" download="eager" />
+    <jar href="lib\commons-codec-1.7.jar" size="281749" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="26757" download="eager" />
+    <jar href="lib\kryonet-all-2.21.jar" size="364354" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CustomHotkeys" >
+    <param name="requiredFXVersion" value="2.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="customhotkeysapp.CustomHotkeys"  name="CustomHotkeys" />
+  <update check="background"/>
+</jnlp>
