@@ -19,7 +19,6 @@ import org.json.simple.parser.ParseException;
  */
 public class ServerVerification {
 
-//    final private static String IP = "46.173.6.49";
     private static ServerVerification instance = null;
     final private static byte[] key = new byte[]{8,1,9,4,5,3,3,2};
     private static StringCrypter crypter;
@@ -38,59 +37,6 @@ public class ServerVerification {
     private ServerVerification() {
         crypter = new StringCrypter(key);
         verification = this.getKey();
-//        this.client.start();
-//        this.client.addListener(new Listener(){
-//            @Override
-//            public void connected(Connection cnctn) {
-//                connect = true;
-//            }
-//            @Override
-//            public void disconnected(Connection cnctn) {
-//                connect = false;
-//                new Timer().schedule(new TimerTask() {
-//                    @Override
-//                    public void run() {
-//                        try {
-//                            if(connect)super.cancel();
-//                                else client.reconnect();
-//                        } catch (IOException e) {}
-//                    }
-//                }, 1000, 10_000);
-//            }
-//            @Override
-//            public void received(Connection cnctn, Object o) {
-//                if(o instanceof byte[]){
-//                    try {
-//                        byte[]buffer = (byte[]) o;
-//                        String string = new String(buffer);
-//                        String encrypt = crypter.encrypt(string);
-//                        if(encrypt!=null){
-//                            JSONObject obj = (JSONObject) new JSONParser().parse(encrypt);
-//                            if(obj!=null){
-//                                if(obj.containsKey("key")){
-//                                      String key = obj.get("key").toString();
-//                                      byte[] backToBytes = Base64.decodeBase64(key);
-//                                      writeKey(backToBytes);
-//                                }
-//                            }
-//                        }
-//                    } catch (ParseException ex) {}
-//                }
-//            }
-//        });
-//        Kryo kryo = this.client.getKryo();
-//        kryo.register(byte[].class);
-
-//        new Thread(){
-//            @Override
-//            public void run() {
-//                while(!connect){
-//                    try {
-//                        client.connect(15_000, IP, 3000);
-//                    } catch (IOException ex) {}}
-//            }
-//        }.start();
-
     }
 
     public static byte[] getKeyVerification(){
