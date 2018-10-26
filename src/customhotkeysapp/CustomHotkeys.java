@@ -50,25 +50,25 @@ public class CustomHotkeys extends Application {
                 hide = true;
             }
         }
-
+        
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-
+        
         Scene scene = new Scene(root);
         stage.setTitle(name_version);
         stage.getIcons().add(new Image("res/ic_launcher.png", false));
         stage.setScene(scene);
-
+        
         if (hide) {
             stage.hide();
         } else {
             stage.show();
         }
-
+        
         stage.setOnCloseRequest((WindowEvent event) -> {
             FXMLDocumentController.saveAllTab();
             System.exit(0);
         });
-
+        
         try {
             if (SystemTray.isSupported()) {
 

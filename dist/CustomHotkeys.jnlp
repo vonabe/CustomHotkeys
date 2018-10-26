@@ -8,9 +8,10 @@
   </information>
   <resources>
     <j2se version="1.6+" java-vm-args="-Xms1024m -Xmx1524m "  href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CustomHotkeys.jar" size="85631" download="eager" />
-    <jar href="lib\commons-codec-1.7.jar" size="281749" download="eager" />
-    <jar href="lib\json-simple-1.1.1.jar" size="26757" download="eager" />
+    <jar href="CustomHotkeys.jar" size="456697" download="eager" />
+    <jar href="lib\commons-codec-1.7.jar" size="281743" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="26755" download="eager" />
+    <jar href="lib\jsoup-1.11.2.jar" size="415295" download="eager" />
     <jar href="lib\kryonet-all-2.21.jar" size="364354" download="eager" />
   </resources>
 <security>
