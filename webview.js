@@ -1,0 +1,1 @@
+<script type="text/javascript">var _mcq=["8","535447"];</script><span id='_mc_mg8'></span><script language="JavaScript" src="https://stat1.moneycontrol.com/mcjs/common/https_mc_widget.js"></script><noscript><a href="https://www.moneycontrol.com/india/stockpricequote/foodprocessing/apisindia/AI65">Apis India</a></noscript>
