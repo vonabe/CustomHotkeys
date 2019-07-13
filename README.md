@@ -1,6 +1,6 @@
 # CustomHotkeys
 
-![Image description] https://github.com/vonabe/CustomHotkeys/blob/master/thumbnail_origina.png?raw=true
+![Image description] (https://github.com/vonabe/CustomHotkeys/blob/master/thumbnail_origina.png)
 
 Site - http://customhotkeys.xyz/
 GooglePlay - https://play.google.com/store/apps/details?id=ru.vonabe.customhotkeys
